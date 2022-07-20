@@ -125,3 +125,11 @@ font-family: 'Open Sans Condensed', sans-serif;
 p3 {
   text-decoration: underline;
 }
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
